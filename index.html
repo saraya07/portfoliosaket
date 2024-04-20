@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="navbar">
+        <a class="logo" href="#portfolio">Portfolio</a>
+        <a href="#home">Home</a>
+        <a href="#about-section">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#project-title">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="mobile-menu-bar">
+        <button class="menu-button" onclick="showMenu()"><i class="fa-solid fa-bars"></i></button>
+        <div class="menu">
+            <a class="logo" href="#portfolio">Portfolio</a>
+            <a href="#home">Home</a>
+            <a href="#about-section">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project-title">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    
+
+    <div class="hero-section" id="home">
+        <div class="contents">
+            <h1>Hi,Myself<br>Saket Saraya</h1>
+            <h2>And I'm a <span>Frontend Developer</span></h2>
+            <p>I am very creative and want to showcase my coding skills ..Here,You will be able to look at my projects and work and also take a look of my various achivements and contact me for work....</p>
+            <div>
+                <a><i class="fa-brands fa-square-instagram"></i></a>
+                <a><i class="fa-brands fa-facebook"></i></a>
+                <a><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="profile-img"></div>
+    </div>
+
+
+
+    <div class="about" id="about-section">
+        <div class="full-img"></div>
+        <div class="about-contents">
+            <h3>About <span>Me</span></h3>
+            <h4>Frontend Developer</h4>
+            <p>Heyy,I am currently studying in Vellore Institute of Technology,with Computer Science-spl in Data Science-and i am aspiring to become a full stack web developer..I have always been intersted in coding and all since childhood and I hope some of my works here will be able to inspire you.
+
+            </p>
+            <button>Read More</button>
+        </div>
+        
+    </div>
+
+    <h3 id="skills">Skills</h3>
+    <div class="skills">
+        
+        <div class="skill skill1">
+            <div class="icon"><i class="fa-solid fa-code"></i></div>
+            <div class="skill-name">Web Development</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eveniet autem, ex voluptate non voluptatibus laborum nostrum minus numquam iure officia voluptates facilis adipisci libero exercitationem sed asperiores impedit excepturi!</p>
+
+        </div>
+        <div class="skill skill2">
+            <div class="icon"><i class="fa-solid fa-c"></i></div>
+            <div class="skill-name">C Language</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eveniet autem, ex voluptate non voluptatibus laborum nostrum minus numquam iure officia voluptates facilis adipisci libero exercitationem sed asperiores impedit excepturi!</p>
+            
+        </div>
+        <div class="skill skill3">
+            <div class="icon"><i class="fa-solid fa-music"></i></div>
+            <div class="skill-name">Singing</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eveniet autem, ex voluptate non voluptatibus laborum nostrum minus numquam iure officia voluptates facilis adipisci libero exercitationem sed asperiores impedit excepturi!</p>
+            
+        </div>
+    </div>
+    <h3 id="project-title">Latest Projects</h3>
+    <div class="latest-projects">
+    
+        <div class="project">
+            <h4>Tic Tac Toe</h4>
+            <a href="https://saraya07.github.io/Tic-Tac-Toe/"><div class="image-sc1"></div></a>
+
+        </div>
+        <div class="project">
+            <h4>Amazon Clone</h4>
+            <a href="https://saraya07.github.io/Amazon-Clone/"><div class="image-sc2"></div></a>
+
+        </div>
+    </div>
+
+    <h3 id="contact">Contact Me</h3>
+    <div class="contact">
+        <form class="form">
+            <input type="text" placeholder="Full Name" />
+            <input type="text" placeholder="Email Adress" />
+            <input type="text" placeholder="Mobile No" />
+            <input type="text" placeholder="Email Subject" />
+            <input type="text" placeholder="Your Message" class="message"/>
+            <button>Send Message</button>
+        </form>
+    </div>
+
+    <footer>Copyright  © Saket Saraya 2024</footer>
+
+
+</body>
+<script src="./index.js"></script>
+</html>
